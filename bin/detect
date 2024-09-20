@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 set -eo pipefail
 
+echo "---> Detecting Elixir application"
+
 if [[ ! -f mix.exs ]]; then
+  echo "No mix.exs found, exiting with code 100"
   exit 100
 fi
+
+echo "mix.exs found, proceeding with detection"
+

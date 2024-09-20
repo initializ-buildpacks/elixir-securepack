@@ -1,5 +1,5 @@
 # Buildpack API version
-api = "0.2"
+api = "0.7"
 
 # Buildpack ID and metadata
 [buildpack]
@@ -9,4 +9,11 @@ name = "Elixir Buildpack"
 
 # Stacks that the buildpack will work with
 [[stacks]]
-id = "heroku-18"
+id = "Initializ Distroless Stack"
+
+# Types configuration
+[[types]]
+build = true
+cache = true
+launch = true
+
