@@ -1,0 +1,6 @@
+[buildpack]
+uri = "https://github.com/initializ-buildpacks/elixir"
+
+[platform]
+os = "linux"
+

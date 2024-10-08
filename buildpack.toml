@@ -3,9 +3,9 @@ api = "0.7"
 
 # Buildpack ID and metadata
 [buildpack]
-id = "app.elixir-buildpack"
+id = "initializ-buildpacks/elixir"
 version = "0.0.1"
-name = "Elixir Buildpack"
+name = "Initializ buildpack for Elixir"
 
 # Stacks that the buildpack will work with
 [[stacks]]
