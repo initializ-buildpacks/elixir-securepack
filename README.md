@@ -5,7 +5,7 @@ This buildpack is under active development, it is not ready to be used.
 ## Test Build
 
 ```shell
-pack build elixir-buildpack:test --path test_app --buildpack . --builder=heroku/buildpacks
+pack build elixir-buildpack:test --path test_app --buildpack initializbuildpacks/elixir-securepack
 ```
 
 ## License
