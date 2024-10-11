@@ -12,7 +12,7 @@ elixir_version=1.14.5
 echo "---> Downloading and extracting OTP"
 otplayer="$layersdir/otp"
 mkdir -p "$otplayer"
-otp_url="https://github.com/elixir-buildpack/heroku-otp/releases/download/$otp_version/heroku-22.tar.gz"
+otp_url="https://github.com/Naveen-is-here/heroku-otp/releases/download/$otp_version/heroku-22.tar.gz"
 wget -q -O - "$otp_url" | tar -xzf - -C "$otplayer" || { echo "Failed to download OTP"; exit 1; }
 mv "$otplayer/OTP-$otp_version"/* "$otplayer"
 rm -r "$otplayer/OTP-$otp_version"
