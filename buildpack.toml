@@ -4,7 +4,7 @@ api = "0.7"
 # Buildpack ID and metadata
 [buildpack]
 id = "initializ-buildpacks/elixir"
-version = "0.0.1"
+version = "0.0.2"
 name = "Initializ buildpack for Elixir"
 
 # Stacks that the buildpack will work with
@@ -28,7 +28,7 @@ id = "Initializ Distroless Stack"
 
   [[order.group]]
     id = "initializ-buildpacks/elixir"
-    version = "0.0.4"
+    version = "0.0.5"
 
   [[order.group]]
     id = "initializ-buildpacks/git"
