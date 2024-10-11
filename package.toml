@@ -9,7 +9,7 @@
   uri = "urn:cnb:registry:initializ-buildpacks/environment-variables@4.5.14"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/elixir@sha256:3761817548dceea30bc1ed8c8d7f18eb54b896d710859466168e9fba52ef37b7"
+  uri = "index.docker.io/initializbuildpacks/elixir@sha256:08d6ae02039cc799cb174efab2853b0f4adda17a2b43ca9992ba305c4cd2cfff"
 
 [[dependencies]]
   uri = "urn:cnb:registry:initializ-buildpacks/git@1.1.0"
