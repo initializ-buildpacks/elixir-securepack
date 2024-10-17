@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -eo pipefail
 
+BP=$(dirname "$(dirname "$0")")
+
 echo "---> Detecting Elixir application"
 
 if [[ ! -f mix.exs ]]; then
@@ -9,4 +11,5 @@ if [[ ! -f mix.exs ]]; then
 fi
 
 echo "mix.exs found, proceeding with detection"
-
+echo "elixir "$(cat "$BP/VERSION")""
+exit 0
