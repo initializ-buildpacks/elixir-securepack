@@ -5,7 +5,7 @@ This buildpack is under active development, it is not ready to be used.
 ## Test Build
 
 ```shell
-pack build elixir-buildpack:test --path test_app --buildpack initializ-buildpacks/elixir-securepack:2.0.0
+pack build elixir-buildpack:test --path test_app --builder initializbuildpacks/light-securepack
 ```
 
 ## License
